@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: antiquewhite;
+}
+
+.section-one {
+    display: flex;
+    position: relative;
+    height: 600px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+.bottom {
+    height: 500px;
+    background-color: rgb(212, 148, 65);
+}
+
+h1 {
+    font-size: 40px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+p {
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.box {
+    width: 800px;
+    height: 400px;
+    background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/GigaMars00007Layer%201-1920x1080-f4b1ab3ad4f27c50e98dd7f86e65f6c8.jpg?resize=1&w=1920");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 420px;
+    left: 360px;
+}
+
+.h1 {
+    color: white;
+    margin-left: 290px;
+
+}
+
+.p {
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+}
+button{
+    margin-left: 370px;
+    margin-top: 20px;
+    
+}
